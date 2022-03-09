@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.raywenderlich.buzzkill"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <application
+22-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:8:5-28:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.6.0] C:\Users\Sekiro\.gradle\caches\transforms-2\files-2.1\798e0b2dda3211e9b6b7251f78a796bf\core-1.6.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:10:9-43
+26        android:label="Buzz Kill" >
+26-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:9:9-34
+27        <activity
+27-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:11:9-22:20
+28            android:name="com.raywenderlich.buzzkill.MainActivity"
+28-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:12:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:15:13-163
+30            android:hardwareAccelerated="true"
+30-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:16:13-47
+31            android:launchMode="singleTop"
+31-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:13:13-43
+32            android:theme="@style/LaunchTheme"
+32-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:14:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:17:13-55
+34            <intent-filter>
+34-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:18:13-21:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:19:17-68
+35-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:20:17-76
+37-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:20:27-74
+38            </intent-filter>
+39        </activity>
+40        <!--
+41             Don't delete the meta-data below.
+42             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+43        -->
+44        <meta-data
+44-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:25:9-27:33
+45            android:name="flutterEmbedding"
+45-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:26:13-44
+46            android:value="2" />
+46-->C:\Users\Sekiro\Desktop\rw-flutter-i18n-l10n-materials\starter\android\app\src\main\AndroidManifest.xml:27:13-30
+47
+48        <uses-library
+48-->[androidx.window:window:1.0.0-beta04] C:\Users\Sekiro\.gradle\caches\transforms-2\files-2.1\563896051193dfdd280f09150b704eab\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.window.extensions"
+49-->[androidx.window:window:1.0.0-beta04] C:\Users\Sekiro\.gradle\caches\transforms-2\files-2.1\563896051193dfdd280f09150b704eab\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0-beta04] C:\Users\Sekiro\.gradle\caches\transforms-2\files-2.1\563896051193dfdd280f09150b704eab\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+51        <uses-library
+51-->[androidx.window:window:1.0.0-beta04] C:\Users\Sekiro\.gradle\caches\transforms-2\files-2.1\563896051193dfdd280f09150b704eab\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+52            android:name="androidx.window.sidecar"
+52-->[androidx.window:window:1.0.0-beta04] C:\Users\Sekiro\.gradle\caches\transforms-2\files-2.1\563896051193dfdd280f09150b704eab\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0-beta04] C:\Users\Sekiro\.gradle\caches\transforms-2\files-2.1\563896051193dfdd280f09150b704eab\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+54    </application>
+55
+56</manifest>
